@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="6"
         android:orientation="vertical">
 
         <Space
@@ -23,13 +23,13 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/eTName"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="name"
+            android:inputType="textPersonName" />
 
         <Space
             android:layout_width="match_parent"
@@ -37,13 +37,13 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/eTAdress"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Address"
+            android:inputType="textPersonName" />
 
         <Space
             android:layout_width="match_parent"
@@ -51,11 +51,12 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextPhone"
+            android:id="@+id/eTPhone"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:ems="10"
+            android:hint="phone"
             android:inputType="phone" />
 
         <Space
@@ -64,11 +65,68 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextPhone2"
+            android:id="@+id/eTPhone2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:ems="10"
+            android:hint="phone home"
+            android:inputType="phone" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/eTdad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="name dad"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/eTPhonedad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="phone dad"
+            android:inputType="phone" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/eTmom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="name mom"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/eTPhoneMom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="phone mom"
             android:inputType="phone" />
 
         <Space
@@ -76,4 +134,9 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 </LinearLayout>
